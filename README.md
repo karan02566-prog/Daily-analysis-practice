@@ -38,7 +38,7 @@ Each SQL file follows the same format:
 | Combine Two Tables (#175) | LeetCode | Easy | LEFT JOIN | [view](SQL/combine_two_tables.sql) |
 | Employees Earning More Than Their Managers (#181) | LeetCode | Easy | Self JOIN | [view](SQL/employees_earning_more_than_managers.sql) |
 | Second Highest Salary (#176) | LeetCode | Medium | Subquery + OFFSET/LIMIT | [view](SQL/second_highest_salary.sql) |
-| Nth Highest Salary (#177) | LeetCode | Medium | Function + Subquery + OFFSET/LIMIT | [view](SQL/nth_highest_salary.sql) |
+| Nth Highest Salary (#177) | LeetCode | Medium | Function + Subquery + OFFSET/LIMIT | [view](SQL/Nth_highest_salary.sql) |
 
 
 ### Excel
