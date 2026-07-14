@@ -35,11 +35,11 @@ Each SQL file follows the same format:
 
 ### SQL
 
- Problem | Platform | Difficulty | Concept | Solution |
---------|----------|------------|---------|----------|
-Combine Two Tables (#175) | LeetCode | Easy | LEFT JOIN | [view](SQL/day01_combine_two_tables.sql) |
-Employees Earning More Than Their Managers (#181) | LeetCode | Easy | Self JOIN | [view](SQL/day02_employees_earning_more_than_managers.sql) |
-Second Highest Salary (#176) | LeetCode | Medium | Subquery + OFFSET/LIMIT | [view](SQL/day03_second_highest_salary.sql) |
+| Problem | Platform | Difficulty | Concept | Solution |
+|---------|----------|------------|---------|----------|
+| Combine Two Tables (#175) | LeetCode | Easy | LEFT JOIN | [view](SQL/combine_two_tables.sql) |
+| Employees Earning More Than Their Managers (#181) | LeetCode | Easy | Self JOIN | [view](SQL/employees_earning_more_than_managers.sql) |
+| Second Highest Salary (#176) | LeetCode | Medium | Subquery + OFFSET/LIMIT | [view](SQL/second_highest_salary.sql) |
 
 ### Excel
 
