@@ -1,0 +1,8 @@
+-- Day 1: Combine Two Tables
+-- Platform: LeetCode #175
+-- Approach: LEFT JOIN Person with Address on personId to keep all persons even without an address, showing null where no match exists
+
+SELECT firstName, lastName, city, state
+FROM Person
+LEFT JOIN Address
+ON Person.personId = Address.personId;
