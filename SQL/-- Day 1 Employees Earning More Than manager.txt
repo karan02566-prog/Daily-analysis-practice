@@ -1,0 +1,9 @@
+-- Day 1: Employees Earning More Than Their Managers
+-- Platform: LeetCode #181
+-- Approach: Self JOIN Employee table to itself (e1 = employee, e2 = manager) using managerId = id, then filter where employee's salary exceeds manager's salary
+
+SELECT e1.name AS Employee
+FROM Employee e1
+JOIN Employee e2
+ON e1.managerId = e2.id
+WHERE e1.salary > e2.salary;

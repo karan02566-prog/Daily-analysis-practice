@@ -1,0 +1,9 @@
+-- problem: Second Highest Salary
+-- Platform: LeetCode #176
+-- Approach: Subquery selects DISTINCT salary, orders descending, uses OFFSET 1 LIMIT 1 to skip the top and grab the next one. Wrapping in outer SELECT ensures null is returned if no second-highest exists
+
+SELECT
+  (SELECT DISTINCT salary
+   FROM Employee
+   ORDER BY salary DESC
+   LIMIT 1 OFFSET 1) AS SecondHighestSalary;
