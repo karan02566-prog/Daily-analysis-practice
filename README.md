@@ -1,106 +1,76 @@
-# \# Daily Analytics Practice
+# Daily Analytics Practice
 
-# 
+Daily SQL and Excel practice log — part of a structured 90-day path into data analytics and Big 4 consulting roles.
 
-# Tracking daily SQL and Excel practice as part of my 90-day skill-building plan toward data analytics and Big 4 consulting roles.
+![SQL](https://img.shields.io/badge/SQL-MySQL-blue) ![Excel](https://img.shields.io/badge/Excel-Practice-green) ![Status](https://img.shields.io/badge/status-active-brightgreen) ![Streak](https://img.shields.io/badge/days_logged-3-orange)
 
-# 
+[Progress Log](#progress-log) · [Why This Repo Exists](#why-this-repo-exists) · [How Its Organized](#how-its-organized)
 
-# \## SQL Progress Log
+---
 
-# 
+## Why This Repo Exists
 
-# | Day | Date | Problem | Platform | Difficulty | Concept | Link |
+Reading about SQL and Excel doesn't build fluency — solving problems daily does. This repo is a public, timestamped log of that practice: one problem a day, minimum, with the query/solution and a short note on the concept it tests.
 
-# |-----|------|---------|----------|------------|---------|------|
+It exists for two reasons:
+1. **Forcing function** — a public daily log is harder to skip than a private one.
+2. **Evidence** — for interviews, this is a running record of consistent, hands-on skill-building rather than a claim on a resume.
 
-# | 1 | 2026-07-14 | Combine Two Tables (#175) | LeetCode | Easy | LEFT JOIN | \[SQL/day01\_combine\_two\_tables.sql](SQL/day01\_combine\_two\_tables.sql) |
+## How It's Organized
 
-# | 2 | 2026-07-14 | Employees Earning More Than Their Managers (#181) | LeetCode | Easy | Self JOIN | \[SQL/day02\_employees\_earning\_more\_than\_managers.sql](SQL/day02\_employees\_earning\_more\_than\_managers.sql) |
+daily-analytics-practice/
+├── README.md          this file — daily log + progress tracker
+├── SQL/                one .sql file per problem solved
+└── EXCEL/              one .xlsx file per exercise completed
 
-# | 3 | 2026-07-14 | Second Highest Salary (#176) | LeetCode | Medium | Subquery + OFFSET/LIMIT | \[SQL/day03\_second\_highest\_salary.sql](SQL/day03\_second\_highest\_salary.sql) |
+Each SQL file follows the same format:
 
-# 
+    -- Day N: Problem Name
+    -- Platform: LeetCode #XXX
+    -- Approach: one-line explanation of the technique used
 
-# \# Daily Analytics Practice
+    SELECT ...
 
-# 
+## Progress Log
 
-# Tracking daily SQL and Excel practice as part of my 90-day skill-building plan toward data analytics and Big 4 consulting roles.
+### SQL
 
-# 
+ Problem | Platform | Difficulty | Concept | Solution |
+--------|----------|------------|---------|----------|
+Combine Two Tables (#175) | LeetCode | Easy | LEFT JOIN | [view](SQL/day01_combine_two_tables.sql) |
+Employees Earning More Than Their Managers (#181) | LeetCode | Easy | Self JOIN | [view](SQL/day02_employees_earning_more_than_managers.sql) |
+Second Highest Salary (#176) | LeetCode | Medium | Subquery + OFFSET/LIMIT | [view](SQL/day03_second_highest_salary.sql) |
 
-# \## SQL Progress Log
+### Excel
 
-# 
+Topic | File |
+-------|------|
+ Sum practice | [view](EXCEL/Sum-Practice-1.xlsx) |
+ Basic formulas | [view](EXCEL/basic%20formulas.xlsx) |
+ Basic formulas (2) | [view](EXCEL/basic%202.xlsx) |
+ Logical functions | [view](EXCEL/logical%20functions.xlsx) |
+ Maths functions | [view](EXCEL/maths%20functions.xlsx) |
 
-# | Day | Date | Problem | Platform | Difficulty | Concept | Link |
+## Concepts Covered
 
-# |-----|------|---------|----------|------------|---------|------|
+**SQL**
+- [x] SELECT / WHERE
+- [x] LEFT JOIN
+- [x] Self JOIN
+- [x] Subqueries
+- [ ] GROUP BY / HAVING
+- [ ] Window functions
+- [ ] CTEs
 
-# | 1 | 2026-07-14 | Combine Two Tables (#175) | LeetCode | Easy | LEFT JOIN | \[SQL/day01\_combine\_two\_tables.sql](SQL/day01\_combine\_two\_tables.sql) |
+**Excel**
+- [x] Basic formulas
+- [x] SUM
+- [x] Logical functions (IF, AND, OR)
+- [x] Math functions
+- [ ] VLOOKUP / XLOOKUP
+- [ ] Pivot tables
+- [ ] INDEX-MATCH
 
-# | 2 | 2026-07-14 | Employees Earning More Than Their Managers (#181) | LeetCode | Easy | Self JOIN | \[SQL/day02\_employees\_earning\_more\_than\_managers.sql](SQL/day02\_employees\_earning\_more\_than\_managers.sql) |
+---
 
-# | 3 | 2026-07-14 | Second Highest Salary (#176) | LeetCode | Medium | Subquery + OFFSET/LIMIT | \[SQL/day03\_second\_highest\_salary.sql](SQL/day03\_second\_highest\_salary.sql) |
-
-# 
-
-# \## Excel Progress Log
-
-# 
-
-# | Day | Date | Topic | File |
-
-# |-----|------|-------|------|
-
-# | 1 | 2026-07-14 | Sum practice | \[EXCEL/Sum-Practice-1.xlsx](EXCEL/Sum-Practice-1.xlsx) |
-
-# | 2 | 2026-07-14 | Basic formulas | \[EXCEL/basic formulas.xlsx](EXCEL/basic%20formulas.xlsx) |
-
-# | 3 | 2026-07-14 | Basic formulas (2) | \[EXCEL/basic 2.xlsx](EXCEL/basic%202.xlsx) |
-
-# | 4 | 2026-07-14 | Logical functions | \[EXCEL/logical functions.xlsx](EXCEL/logical%20functions.xlsx) |
-
-# | 5 | 2026-07-14 | Maths functions | \[EXCEL/maths functions.xlsx](EXCEL/maths%20functions.xlsx) |
-
-# 
-
-# \## Topics Covered So Far
-
-# 
-
-# \*\*SQL\*\*
-
-# \- \[x] Basic SELECT + WHERE
-
-# \- \[x] LEFT JOIN
-
-# \- \[x] Self JOIN
-
-# \- \[x] Subqueries
-
-# \- \[ ] GROUP BY / HAVING
-
-# \- \[ ] Window functions
-
-# \- \[ ] CTEs
-
-# 
-
-# \*\*Excel\*\*
-
-# \- \[x] Basic formulas
-
-# \- \[x] SUM
-
-# \- \[x] Logical functions (IF, AND, OR)
-
-# \- \[x] Math functions
-
-# \- \[ ] VLOOKUP / XLOOKUP
-
-# \- \[ ] Pivot tables
-
-# \- \[ ] INDEX-MATCH
-
+Part of a broader skill-building track that also includes the [BRSR Gap Analysis Tool](https://github.com/karan02566-prog/BRSR-gap-analysis-tool), a Python/Streamlit ESG compliance screening tool.
