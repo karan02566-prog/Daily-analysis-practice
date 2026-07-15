@@ -39,6 +39,11 @@ Each SQL file follows the same format:
 | Employees Earning More Than Their Managers (#181) | LeetCode | Easy | Self JOIN | [view](SQL/employees_earning_more_than_managers.sql) |
 | Second Highest Salary (#176) | LeetCode | Medium | Subquery + OFFSET/LIMIT | [view](SQL/second_highest_salary.sql) |
 | Nth Highest Salary (#177) | LeetCode | Medium | Function + Subquery + OFFSET/LIMIT | [view](SQL/nth_highest_salary.sql) |
+| Rank Scores (#178) | LeetCode | Medium | Window functions (DENSE_RANK) | [view](SQL/178-rank-scores.sql) |
+| Consecutive Numbers (#180) | LeetCode | Medium | Self-join on sequential IDs | [view](SQL/180-consecutive-numbers.sql) |
+| Department Highest Salary (#184) | LeetCode | Medium | Correlated subquery / window functions | [view](SQL/184-department-highest-salary.sql) |
+| Managers with at Least 5 Direct Reports (#570) | LeetCode | Medium | GROUP BY + HAVING, self-referencing table | [view](SQL/570-managers-with-at-least-5-direct-reports.sql) |
+| Investments in 2016 (#585) | LeetCode | Medium | Multiple filtering subqueries | [view](SQL/585-investments-in-2016.sql)
 
 
 ### Excel
