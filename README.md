@@ -2,7 +2,7 @@
 
 Daily SQL and Excel practice log — part of a structured 90-day path into data analytics and Big 4 consulting roles.
 
-![SQL](https://img.shields.io/badge/SQL-MySQL-blue) ![Excel](https://img.shields.io/badge/Excel-Practice-green) ![Status](https://img.shields.io/badge/status-active-brightgreen) ![Streak](https://img.shields.io/badge/days_logged-3-orange)
+![SQL](https://img.shields.io/badge/SQL-MySQL-blue) ![Excel](https://img.shields.io/badge/Excel-Practice-green) ![Status](https://img.shields.io/badge/status-active-brightgreen) 
 
 [Progress Log](#progress-log) · [Why This Repo Exists](#why-this-repo-exists) · [How Its Organized](#how-its-organized)
 
