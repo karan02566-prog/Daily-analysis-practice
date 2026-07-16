@@ -44,6 +44,15 @@ Each SQL file follows the same format:
 | Department Highest Salary (#184) | LeetCode | Medium | Correlated subquery / window functions | [view](SQL/184-department-highest-salary.sql) |
 | Managers with at Least 5 Direct Reports (#570) | LeetCode | Medium | GROUP BY + HAVING, self-referencing table | [view](SQL/570-managers-with-at-least-5-direct-reports.sql) |
 | Investments in 2016 (#585) | LeetCode | Medium | Multiple filtering subqueries | [view](SQL/585-investments-in-2016.sql)
+| Game Play Analysis IV (#550) | LeetCode | Medium | Self Join, Date Functions | [view](SQL/550-game-play-analysis-iv.sql) |
+| Friend Request II: Who Has the Most Friends (#602) | LeetCode | Medium | UNION, Aggregation | [view](SQL/602-friend-request-ii-who-has-the-most-friends.sql) |
+| Tree Node (#608) | LeetCode | Medium | Self Reference, CASE | [view](SQL/608-tree-node.sql) |
+| Exchange Seats (#626) | LeetCode | Medium | CASE, Conditional Logic | [view](SQL/626-exchange-seats.sql) |
+| Department Top Three Salaries (#185) | LeetCode | Hard | Window Functions, DENSE_RANK | [view](SQL/185-department-top-three-salaries.sql) |
+| Trips and Users (#262) | LeetCode | Hard | Joins, Conditional Aggregation | [view](SQL/262-trips-and-users.sql) |
+| Human Traffic of Stadium (#601) | LeetCode | Hard | Gaps & Islands, Window Functions | [view](SQL/601-human-traffic-of-stadium.sql) |
+| First Letter Capitalization II (#3374) | LeetCode | Hard | String Manipulation, Recursive CTE | [view](SQL/3374-first-letter-capitalization-ii.sql) |
+| Find Invalid IP Addresses (#3451) | LeetCode | Hard | String Manipulation, Regex | [view](SQL/3451-find-invalid-ip-addresses.sql) |
 
 
 ### Excel
