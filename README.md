@@ -53,6 +53,11 @@ Each SQL file follows the same format:
 | Human Traffic of Stadium (#601) | LeetCode | Hard | Gaps & Islands, Window Functions | [view](SQL/human_traffic_of_stadium.sql) |
 | First Letter Capitalization II (#3374) | LeetCode | Hard | String Manipulation, Recursive CTE | [view](SQL/first_letter_captialization_ii.sql) |
 | Find Invalid IP Addresses (#3451) | LeetCode | Hard | String Manipulation, Regex | [view](SQL/find_invaild_ip_addresses.sql) |
+| Find Students Who Improved (#3421) | LeetCode | Medium | Window Functions (ROW_NUMBER), Self-Join | [view](SQL/find-students-who-improved.sql) |
+| DNA Pattern Recognition (#3475) | LeetCode | Easy | REGEXP, String Pattern Matching | [view](SQL/dna-pattern-recognition.sql) |
+| Analyze Organization Hierarchy (#3482) | LeetCode | Hard | Recursive CTE, Hierarchical Aggregation | [view](SQL/analyze-organization-hierarchy.sql) |
+| Analyze Subscription Conversion (#3497) | LeetCode | Medium | Conditional Aggregation (CASE + AVG), HAVING | [view](SQL/analyze-subscription-conversion.sql) |
+| Find Product Recommendation Pairs (#3521) | LeetCode | Medium | Self-Join, GROUP BY + HAVING | [view](SQL/find-product-recommendation-pairs.sql) |
 
 
 ### Excel
