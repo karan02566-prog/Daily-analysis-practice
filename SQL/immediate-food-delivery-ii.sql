@@ -1,0 +1,14 @@
+-- 1174. Immediate Food Delivery II
+-- Difficulty: Medium
+-- Find the percentage of immediate orders (order_date = customer_pref_delivery_date)
+-- among each customer's FIRST order, rounded to 2 decimal places.
+
+SELECT ROUND(
+    100 * SUM(order_date = customer_pref_delivery_date) / COUNT(*), 2
+) AS immediate_percentage
+FROM Delivery
+WHERE (customer_id, order_date) IN (
+    SELECT customer_id, MIN(order_date)
+    FROM Delivery
+    GROUP BY customer_id
+);
