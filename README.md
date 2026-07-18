@@ -58,7 +58,11 @@ Each SQL file follows the same format:
 | Analyze Organization Hierarchy (#3482) | LeetCode | Hard | Recursive CTE, Hierarchical Aggregation | [view](SQL/analyze-organization-hierarchy.sql) |
 | Analyze Subscription Conversion (#3497) | LeetCode | Medium | Conditional Aggregation (CASE + AVG), HAVING | [view](SQL/analyze-subscription-conversion.sql) |
 | Find Product Recommendation Pairs (#3521) | LeetCode | Medium | Self-Join, GROUP BY + HAVING | [view](SQL/find-product-recommendation-pairs.sql) |
-
+| Product Sales Analysis III (#1070) | LeetCode | Medium | Tuple Subquery, Aggregation | [view](SQL/product-analysis-iii.sql) |
+| Market Analysis I (#1158) | LeetCode | Medium | LEFT JOIN, Conditional ON | [view](SQL/market-analysis-i.sql) |
+| Product Price at a Given Date (#1164) | LeetCode | Medium | UNION, Tuple Subquery | [view](SQL/product-price-at-a-given-date.sql) |
+| Immediate Food Delivery II (#1174) | LeetCode | Medium | Tuple Subquery, Boolean SUM | [view](SQL/immediate-food-delivery-ii.sql) |
+| Monthly Transactions I (#1193) | LeetCode | Medium | Conditional Aggregation, DATE_FORMAT | [view](SQL/monthly-transactions-i.sql) |
 
 ### Excel
 
