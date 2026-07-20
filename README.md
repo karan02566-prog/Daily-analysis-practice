@@ -63,6 +63,12 @@ Each SQL file follows the same format:
 | Product Price at a Given Date (#1164) | LeetCode | Medium | UNION, Tuple Subquery | [view](SQL/product-price-at-a-given-date.sql) |
 | Immediate Food Delivery II (#1174) | LeetCode | Medium | Tuple Subquery, Boolean SUM | [view](SQL/immediate-food-delivery-ii.sql) |
 | Monthly Transactions I (#1193) | LeetCode | Medium | Conditional Aggregation, DATE_FORMAT | [view](SQL/monthly-transactions-i.sql) |
+| Customers Who Bought All Products (#1045) | LeetCode | Medium | GROUP BY, HAVING, Subquery | [view](SQL/1045-customers-who-bought-all-products.sql) |
+| Last Person to Fit in the Bus (#1204) | LeetCode | Medium | Window Functions, Running Total | [view](SQL/1204-last-person-to-fit-in-the-bus.sql) |
+| Restaurant Growth (#1321) | LeetCode | Medium | Window Functions, Range Frames, Moving Average | [view](SQL/1321-restaurant-growth.sql) |
+| Movie Rating (#1341) | LeetCode | Medium | JOIN, GROUP BY, UNION ALL | [view](SQL/1341-movie-rating.sql) |
+| Capital Gain/Loss (#1393) | LeetCode | Medium | CASE WHEN, GROUP BY, Aggregation | [view](SQL/1393-capital-gainloss.sql) |
+
 
 ### Excel
 
