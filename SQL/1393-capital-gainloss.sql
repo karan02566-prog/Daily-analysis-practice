@@ -1,0 +1,8 @@
+-- 1393. Capital Gain/Loss
+-- Difficulty: Medium
+-- Topics: CASE WHEN, GROUP BY, Aggregation
+
+SELECT stock_name,
+       SUM(CASE WHEN operation = 'Sell' THEN price ELSE -price END) AS capital_gain_loss
+FROM Stocks
+GROUP BY stock_name;
