@@ -68,6 +68,11 @@ Each SQL file follows the same format:
 | Restaurant Growth (#1321) | LeetCode | Medium | Window Functions, Range Frames, Moving Average | [view](SQL/1321-restaurant-growth.sql) |
 | Movie Rating (#1341) | LeetCode | Medium | JOIN, GROUP BY, UNION ALL | [view](SQL/1341-movie-rating.sql) |
 | Capital Gain/Loss (#1393) | LeetCode | Medium | CASE WHEN, GROUP BY, Aggregation | [view](SQL/1393-capital-gainloss.sql) |
+| Count Salary Categories (#1907) | LeetCode | Medium | Conditional Aggregation, UNION ALL | [view](SQL/count-salary-categories.sql) |
+| Confirmation Rate (#1934) | LeetCode | Medium | LEFT JOIN, Conditional Aggregation, ROUND | [view](SQL/confirmation-rate.sql) |
+| Odd and Even Transactions (#3220) | LeetCode | Easy | Conditional Aggregation, GROUP BY | [view](SQL/odd-and-even-transactions.sql) |
+| Seasonal Sales Analysis (#3564) | LeetCode | Medium | CTE, Window Functions (RANK), JOIN | [view](SQL/seasonal-sales-analysis.sql) |
+| Maximize Active Section with Trade I (#3499) | LeetCode | Medium | Run-Length Encoding, Greedy | [view](SQL/maximize-active-section-with-trade-i.sql) |
 
 
 ### Excel
