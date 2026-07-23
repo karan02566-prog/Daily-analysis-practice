@@ -73,6 +73,15 @@ Each SQL file follows the same format:
 | Odd and Even Transactions (#3220) | LeetCode | Easy | Conditional Aggregation, GROUP BY | [view](SQL/odd-and-even-transactions.sql) |
 | Seasonal Sales Analysis (#3564) | LeetCode | Medium | CTE, Window Functions (RANK), JOIN | [view](SQL/seasonal-sales-analysis.sql) |
 | Maximize Active Section with Trade I (#3499) | LeetCode | Medium | Run-Length Encoding, Greedy | [view](SQL/maximize-active-section-with-trade-i.sql) |
+| Find Category Recommendation Pairs (#3554) | LeetCode | Hard | Self-Join, HAVING, Aggregation | [view](SQL/Find_Category_Recommendation_Pairs.sql) |
+| Find Zombie Sessions (#3673) | LeetCode | Hard | GROUP BY, HAVING, Conditional Aggregation, TIMESTAMPDIFF | [view](SQL/Find_Zombie_Sessions.sql) |
+| Most Common Course Pairs (#3764) | LeetCode | Hard | Window Functions, Self-Join, GROUP BY | [view](SQL/Most_Common_Course_Pairs.sql) |
+| Find Users with Persistent Behavior Patterns (#3832) | LeetCode | Hard | Window Functions, Gaps and Islands | [view](SQL/Find_Users_with_Persistent_Behavior_Patterns.sql) |
+| Find Consistently Improving Employees (#3580) | LeetCode | Medium | Window Functions, LAG, ROW_NUMBER | [view](SQL/Find_Consistently_Improving_Employees.sql) |
+| Find COVID Recovery Patients (#3586) | LeetCode | Medium | CTE, Self-Join, Conditional Aggregation | [view](SQL/Find_COVID_Recovery_Patients.sql) |
+| Find Drivers with Improved Fuel Efficiency (#3601) | LeetCode | Medium | CTE, Self-Join, CASE WHEN | [view](SQL/Find_Drivers_with_Improved_Fuel_Efficiency.sql) |
+| Find Overbooked Employees (#3611) | LeetCode | Medium | CTE, GROUP BY, HAVING, WEEK() | [view](SQL/Find_Overbooked_Employees.sql) |
+| Find Stores with Inventory Imbalance (#3626) | LeetCode | Medium | Window Functions (RANK), Self-Join | [view](SQL/Find_Stores_with_inventory_Imbalance.sql) |
 
 
 ### Excel
