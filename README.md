@@ -43,7 +43,7 @@ Each SQL file follows the same format:
 | Consecutive Numbers (#180) | LeetCode | Medium | Self-join on sequential IDs | [view](SQL/180-consecutive-numbers.sql) |
 | Department Highest Salary (#184) | LeetCode | Medium | Correlated subquery / window functions | [view](SQL/184-department-highest-salary.sql) |
 | Managers with at Least 5 Direct Reports (#570) | LeetCode | Medium | GROUP BY + HAVING, self-referencing table | [view](SQL/570-managers-with-at-least-5-direct-reports.sql) |
-| Investments in 2016 (#585) | LeetCode | Medium | Multiple filtering subqueries | [view](SQL/585-investments-in-2016.sql)
+| Investments in 2016 (#585) | LeetCode | Medium | Multiple filtering subqueries | [view](SQL/585-investments-in-2016.sql) |
 | Game Play Analysis IV (#550) | LeetCode | Medium | Self Join, Date Functions | [view](SQL/game_play_analysis_iv.sql) |
 | Friend Request II: Who Has the Most Friends (#602) | LeetCode | Medium | UNION, Aggregation | [view](SQL/friend_request_ii.sql) |
 | Tree Node (#608) | LeetCode | Medium | Self Reference, CASE | [view](SQL/tree_node.sql) |
@@ -51,8 +51,8 @@ Each SQL file follows the same format:
 | Department Top Three Salaries (#185) | LeetCode | Hard | Window Functions, DENSE_RANK | [view](SQL/department_top_three_salaries.sql) |
 | Trips and Users (#262) | LeetCode | Hard | Joins, Conditional Aggregation | [view](SQL/trips_and_users.sql) |
 | Human Traffic of Stadium (#601) | LeetCode | Hard | Gaps & Islands, Window Functions | [view](SQL/human_traffic_of_stadium.sql) |
-| First Letter Capitalization II (#3374) | LeetCode | Hard | String Manipulation, Recursive CTE | [view](SQL/first_letter_captialization_ii.sql) |
-| Find Invalid IP Addresses (#3451) | LeetCode | Hard | String Manipulation, Regex | [view](SQL/find_invaild_ip_addresses.sql) |
+| First Letter Capitalization II (#3374) | LeetCode | Hard | String Manipulation, Recursive CTE | [view](SQL/first_letter_capitalization_ii.sql) |
+| Find Invalid IP Addresses (#3451) | LeetCode | Hard | String Manipulation, Regex | [view](SQL/find_invalid_ip_addresses.sql) |
 | Find Students Who Improved (#3421) | LeetCode | Medium | Window Functions (ROW_NUMBER), Self-Join | [view](SQL/find-students-who-improved.sql) |
 | DNA Pattern Recognition (#3475) | LeetCode | Medium | REGEXP, String Pattern Matching | [view](SQL/dna-pattern-recognition.sql) |
 | Analyze Organization Hierarchy (#3482) | LeetCode | Hard | Recursive CTE, Hierarchical Aggregation | [view](SQL/analyze-organization-hierarchy.sql) |
@@ -74,15 +74,19 @@ Each SQL file follows the same format:
 | Seasonal Sales Analysis (#3564) | LeetCode | Medium | CTE, Window Functions (RANK), JOIN | [view](SQL/seasonal-sales-analysis.sql) |
 | Maximize Active Section with Trade I (#3499) | LeetCode | Medium | Run-Length Encoding, Greedy | [view](SQL/maximize-active-section-with-trade-i.sql) |
 | Find Category Recommendation Pairs (#3554) | LeetCode | Hard | Self-Join, HAVING, Aggregation | [view](SQL/Find_Category_Recommendation_Pairs.sql) |
-| Find Zombie Sessions (#3673) | LeetCode | Hard | GROUP BY, HAVING, Conditional Aggregation, TIMESTAMPDIFF | [view](SQL/Find_Zombie_Sessions.sql) |
+| Find Zombie Sessions (#3673) | LeetCode | Hard | GROUP BY, HAVING, Conditional Aggregation, TIMESTAMPDIFF | [view](SQL/find_zombie_sessions.sql) |
 | Most Common Course Pairs (#3764) | LeetCode | Hard | Window Functions, Self-Join, GROUP BY | [view](SQL/Most_Common_Course_Pairs.sql) |
-| Find Users with Persistent Behavior Patterns (#3832) | LeetCode | Hard | Window Functions, Gaps and Islands | [view](SQL/Find_Users_with_Persistent_Behavior_Patterns.sql) |
-| Find Consistently Improving Employees (#3580) | LeetCode | Medium | Window Functions, LAG, ROW_NUMBER | [view](SQL/Find_Consistently_Improving_Employees.sql) |
-| Find COVID Recovery Patients (#3586) | LeetCode | Medium | CTE, Self-Join, Conditional Aggregation | [view](SQL/Find_COVID_Recovery_Patients.sql) |
+| Find Users with Persistent Behavior Patterns (#3832) | LeetCode | Hard | Window Functions, Gaps and Islands | [view](SQL/find_users_with_persistent_behaviour_pattern.sql) |
+| Find Consistently Improving Employees (#3580) | LeetCode | Medium | Window Functions, LAG, ROW_NUMBER | [view](SQL/find_consistently_improving_employees.sql) |
+| Find COVID Recovery Patients (#3586) | LeetCode | Medium | CTE, Self-Join, Conditional Aggregation | [view](SQL/find_covid_recovered_patients.sql) |
 | Find Drivers with Improved Fuel Efficiency (#3601) | LeetCode | Medium | CTE, Self-Join, CASE WHEN | [view](SQL/Find_Drivers_with_Improved_Fuel_Efficiency.sql) |
 | Find Overbooked Employees (#3611) | LeetCode | Medium | CTE, GROUP BY, HAVING, WEEK() | [view](SQL/Find_Overbooked_Employees.sql) |
-| Find Stores with Inventory Imbalance (#3626) | LeetCode | Medium | Window Functions (RANK), Self-Join | [view](SQL/Find_Stores_with_inventory_Imbalance.sql) |
-
+| Find Stores with Inventory Imbalance (#3626) | LeetCode | Medium | Window Functions (RANK), Self-Join | [view](SQL/Find_Stores_with_Inventory_Imbalance.sql) |
+| Find Books with Polarized Opinions (#3642) | LeetCode | Medium | Aggregation, HAVING, CASE WHEN | [view](SQL/find_books_with_polarized_opininons.sql) |
+| Find Loyal Customers (#3657) | LeetCode | Medium | Aggregation, DATEDIFF, HAVING | [view](SQL/find_loyal_customers.sql) |
+| Find Golden Hour Customers (#3705) | LeetCode | Medium | CASE WHEN, HOUR(), Aggregation | [view](SQL/find_golden_hour_customers.sql) |
+| Find Churn Risk Customers (#3716) | LeetCode | Medium | Window Functions, CTEs, DATEDIFF | [view](SQL/find_churn_risk_customers.sql) |
+| Find Emotionally Consistent Users (#3808) | LeetCode | Medium | CTEs, Aggregation, Self-Join | [view](SQL/find_emotionally_consistent_users.sql) |
 
 ### Excel
 
@@ -101,9 +105,9 @@ Topic | File |
 - [x] LEFT JOIN
 - [x] Self JOIN
 - [x] Subqueries
-- [ ] GROUP BY / HAVING
-- [ ] Window functions
-- [ ] CTEs
+- [x] GROUP BY / HAVING
+- [x] Window functions
+- [x] CTEs
 
 **Excel**
 - [x] Basic formulas
