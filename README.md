@@ -87,6 +87,15 @@ Each SQL file follows the same format:
 | Find Golden Hour Customers (#3705) | LeetCode | Medium | CASE WHEN, HOUR(), Aggregation | [view](SQL/find_golden_hour_customers.sql) |
 | Find Churn Risk Customers (#3716) | LeetCode | Medium | Window Functions, CTEs, DATEDIFF | [view](SQL/find_churn_risk_customers.sql) |
 | Find Emotionally Consistent Users (#3808) | LeetCode | Medium | CTEs, Aggregation, Self-Join | [view](SQL/find_emotionally_consistent_users.sql) |
+| Triangle Judgement (#610) | LeetCode | Easy | CASE WHEN, Conditional Logic | [view](SQL/triangle_judgement.sql) |
+| Biggest Single Number (#619) | LeetCode | Easy | GROUP BY, HAVING, Aggregation | [view](SQL/biggest_single_number.sql) |
+| Not Boring Movies (#620) | LeetCode | Easy | WHERE, Modulo, ORDER BY | [view](SQL/not_boring_movies.sql) |
+| Swap Sex of Employees (#627) | LeetCode | Easy | UPDATE, CASE WHEN | [view](SQL/swap_sex_of_employees.sql) |
+| Actors and Directors Who Cooperated At Least Three Times (#1050) | LeetCode | Easy | GROUP BY, HAVING | [view](SQL/Actors_and_Directors_Who_Cooperated_At_Least_Three_Times.sql) |
+| Duplicate Emails (#182) | LeetCode | Easy | GROUP BY, HAVING | [view](SQL/duplicate_emails.sql) |
+| Customers Who Never Order (#183) | LeetCode | Easy | LEFT JOIN, NOT IN / NOT EXISTS | [view](SQL/customers_who_never_order.sql) |
+| Rising Temperature (#197) | LeetCode | Easy | Self-Join, DATEDIFF | [view](SQL/rising_temperature.sql) |
+| Delete Duplicate Emails (#196) | LeetCode | Easy | DELETE, Self-Join | [view](SQL/delete_duplicate_emails.sql) |
 
 ### Excel
 
