@@ -96,6 +96,11 @@ Each SQL file follows the same format:
 | Customers Who Never Order (#183) | LeetCode | Easy | LEFT JOIN, NOT IN / NOT EXISTS | [view](SQL/customers_who_never_order.sql) |
 | Rising Temperature (#197) | LeetCode | Easy | Self-Join, DATEDIFF | [view](SQL/rising_temperature.sql) |
 | Delete Duplicate Emails (#196) | LeetCode | Easy | DELETE, Self-Join | [view](SQL/delete_duplicate_emails.sql) |
+| User Activity for the Past 30 Days (#1141) | LeetCode | Easy | Group By, Date Filtering, Distinct | [view](SQL/user_activity_for_past_30_days.sql) |
+| Article Views I (#1148) | LeetCode | Easy | Self Join Logic, Distinct | [view](SQL/article_views_1.sql) |
+| Reformat Department Table (#1179) | LeetCode | Easy | Pivot, CASE WHEN, Group By | [view](SQL/reformat_department_table.sql) |
+| Queries Quality and Percentage (#1211) | LeetCode | Easy | Aggregation, Conditional Avg | [view](SQL/queries_quality_and_percentage.sql) |
+| Average Selling Price (#1251) | LeetCode | Easy | Join, Weighted Average, Null Handling | [view](SQL/average_selling_price.sql) |
 
 ### Excel
 
