@@ -106,6 +106,9 @@ Topic | File |
  Basic formulas (2) | [view](EXCEL/basic%202.xlsx) |
  Logical functions | [view](EXCEL/logical%20functions.xlsx) |
  Maths functions | [view](EXCEL/maths%20functions.xlsx) |
+ Vlookup Exact match | [view](EXCEL/01_vlookup_exact_match.xlsx) |
+ Vlookup appropriate match | [view](EXCEL/02_vlookup_approx_tax_bracket.xlsx) |
+ Hlookup budget | [view](EXCEL/03_hlookup_monthly_budget.xlsx) |
 
 ## Concepts Covered
 
