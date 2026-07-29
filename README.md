@@ -101,6 +101,12 @@ Each SQL file follows the same format:
 | Reformat Department Table (#1179) | LeetCode | Easy | Pivot, CASE WHEN, Group By | [view](SQL/reformat_department_table.sql) |
 | Queries Quality and Percentage (#1211) | LeetCode | Easy | Aggregation, Conditional Avg | [view](SQL/queries_quality_and_percentage.sql) |
 | Average Selling Price (#1251) | LeetCode | Easy | Join, Weighted Average, Null Handling | [view](SQL/average_selling_price.sql) |
+| Game Play Analysis I (#511) | LeetCode | Easy | GROUP BY, MIN | [view](SQL/game_play_analysis_1.sql) |
+| Employee Bonus (#577) | LeetCode | Easy | LEFT JOIN, NULL Handling | [view](SQL/employee_bonus.sql) |
+| Find Customer Referee (#584) | LeetCode | Easy | WHERE, NULL Handling | [view](SQL/find_customer_referee.sql) |
+| Customer Placing the Largest Number of Orders (#586) | LeetCode | Easy | GROUP BY, ORDER BY, LIMIT | [view](SQL/customer_placing_the_largest_number_of_orders.sql) |
+| Big Countries (#595) | LeetCode | Easy | WHERE, OR | [view](SQL/big_countries.sql) |
+| Classes With at Least 5 Students (#596) | LeetCode | Easy | GROUP BY, HAVING | [view](SQL/classes_with_at_least_5_students.sql) |
 
 ### Excel
 
