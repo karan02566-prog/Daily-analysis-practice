@@ -120,6 +120,14 @@ Topic | File |
  Vlookup Exact match | [view](EXCEL/01_vlookup_exact_match.xlsx) |
  Vlookup appropriate match | [view](EXCEL/02_vlookup_approx_tax_bracket.xlsx) |
  Hlookup budget | [view](EXCEL/03_hlookup_monthly_budget.xlsx) |
+ Index Match single condition | [view](EXCEL/INDEX_MATCH_Single_Condition.xlsx) |
+ INDEX-MATCH (two-way lookup, row + column) | [view](EXCEL/INDEX_MATCH_Two_Way_Lookup.xlsx) |
+ XLOOKUP with default/error handling | [view](EXCEL/XLOOKUP_Default_Error_Handling.xlsx) |
+ Nested IF (3+ conditions) | [view](EXCEL/nestef_if_solved.csv) |
+ IFS function | [view](EXCEL/ifs_function_solved.csv) |
+ SUMIF | [view](sumif_solved.csv) |
+
+
 
 ## Concepts Covered
 
