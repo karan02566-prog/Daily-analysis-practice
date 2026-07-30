@@ -1,0 +1,12 @@
+"IFS Function — Grade Band Lookup (same logic, no nesting)",,,
+"Formula used in column C: IFS() checks each condition in order, first TRUE wins",,,
+Student,Score,Grade (Nested IF),Formula (as text)
+Aarav Sharma,92,A,"IFS(B5>=90,""A"",B5>=75,""B"",B5>=60,""C"",TRUE,""D"")"
+Priya Nair,78,B,
+Rohan Gupta,64,C,
+Sneha Iyer,45,D,
+Karan Mehta,88,B,
+Divya Rao,55,D,
+Ishaan Verma,71,C,
+Ananya Singh,39,D,
+"Note: IFS needs a catch-all at the end — TRUE,""D"" — otherwise scores below 60 return an error",,,
