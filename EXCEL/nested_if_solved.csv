@@ -1,0 +1,12 @@
+Nested IF — Grade Band Lookup (4 conditions),,,
+Formula used in column C: classifies each score into A / B / C / D using a nested IF,,,
+Student,Score,Grade (Nested IF),Formula (as text)
+Aarav Sharma,92,A,"IF(B5>=90,""A"",IF(B5>=75,""B"",IF(B5>=60,""C"",""D"")))"
+Priya Nair,78,B,
+Rohan Gupta,64,C,
+Sneha Iyer,45,D,
+Karan Mehta,88,B,
+Divya Rao,55,D,
+Ishaan Verma,71,C,
+Ananya Singh,39,D,
+Grading scale: >=90 A | >=75 B | >=60 C | below 60 D,,,
