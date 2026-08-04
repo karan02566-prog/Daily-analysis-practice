@@ -107,6 +107,16 @@ Each SQL file follows the same format:
 | Customer Placing the Largest Number of Orders (#586) | LeetCode | Easy | GROUP BY, ORDER BY, LIMIT | [view](SQL/customer_placing_the_largest_number_of_orders.sql) |
 | Big Countries (#595) | LeetCode | Easy | WHERE, OR | [view](SQL/big_countries.sql) |
 | Classes With at Least 5 Students (#596) | LeetCode | Easy | GROUP BY, HAVING | [view](SQL/classes_with_at_least_5_students.sql) |
+The Number of Employees Which Report to Each Employee (#1731) | LeetCode | Easy | Self-Join, GROUP BY, Aggregation | [view](SQL/The_Number_of_Employees_Which_Report_to_Each_Employee.sql) |
+Find Followers Count (#1729) | LeetCode | Easy | GROUP BY, COUNT | [view](SQL/find_followers_count.sql) |
+Top Travellers (#1407) | LeetCode | Easy | LEFT JOIN, GROUP BY, SUM, IFNULL | [view](SQL/top_travellers.sql) |
+Replace Employee ID With The Unique Identifier (#1378) | LeetCode | Easy | LEFT JOIN, NULL Handling | [view](SQL/Replace_Employee_ID_With_The_Unique_Identifier.sql) |
+List the Products Ordered in a Period (#1327) | LeetCode | Easy | JOIN, WHERE, GROUP BY, HAVING | [view](SQL/List_the_Products_Ordered_in_a_Period.sql) |
+Daily Leads and Partners (#1693) | LeetCode | Easy | GROUP BY, COUNT DISTINCT | [view](SQL/Daily_Leads_and_Partners.sql) |
+Invalid Tweets (#1683) | LeetCode | Easy | WHERE, LENGTH() | [view](SQL/Invalid_Tweets.sql) |
+Fix Names in a Table (#1667) | LeetCode | Easy | CONCAT, UPPER/LOWER, ORDER BY | [view](SQL/Fix_Names_in_a_Table.sql) |
+Average Time of Process per Machine (#1661) | LeetCode | Easy | Self-Join, GROUP BY, Window Functions | [view](SQL/Average_Time_of_Process_per_Machine.sql) |
+Percentage of Users Attended a Contest (#1633) | LeetCode | Easy | Subquery, GROUP BY, ORDER BY | [view](SQL/Percentage_of_Users_Attended_a_Contest.sql) |
 
 ### Excel
 
