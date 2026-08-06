@@ -117,6 +117,11 @@ Invalid Tweets (#1683) | LeetCode | Easy | WHERE, LENGTH() | [view](SQL/Invalid_
 Fix Names in a Table (#1667) | LeetCode | Easy | CONCAT, UPPER/LOWER, ORDER BY | [view](SQL/Fix_Names_in_a_Table.sql) |
 Average Time of Process per Machine (#1661) | LeetCode | Easy | Self-Join, GROUP BY, Window Functions | [view](SQL/Average_Time_of_Process_per_Machine.sql) |
 Percentage of Users Attended a Contest (#1633) | LeetCode | Easy | Subquery, GROUP BY, ORDER BY | [view](SQL/Percentage_of_Users_Attended_a_Contest.sql) |
+| Employees With Missing Information (#1965) | LeetCode | Easy | UNION, LEFT JOIN/RIGHT JOIN | [view](SQL/employees_with_missing_information.sql) |
+| The Latest Login in 2020 (#1890) | LeetCode | Easy | WHERE, GROUP BY, MAX | [view](SQL/the_latest_login_in_2020.sql) |
+| Calculate Special Bonus (#1873) | LeetCode | Easy | CASE WHEN | [view](SQL/Calculate_Special_Bonus.sql) |
+| Rearrange Products Table (#1795) | LeetCode | Easy | UNION | [view](SQL/Rearrange_Products_Table.sql) |
+| Recyclable and Low Fat Products (#1757) | LeetCode | Easy | WHERE, AND | [view](SQL/Recyclable_and_Low_Fat_Products.sql) |
 
 ### Excel
 
